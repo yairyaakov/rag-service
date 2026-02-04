@@ -1,11 +1,11 @@
-# 🧠 RAGify - Lightweight RAG Service with FastAPI, FAISS, and OpenAI
+# RAGify - Lightweight RAG Service with FastAPI, FAISS, and OpenAI
 
 **RAGify** is a minimal and powerful **Retrieval-Augmented Generation (RAG)** service built with **FastAPI**, **FAISS**, and **OpenAI API**.
 It allows you to **upload PDF or CSV documents, store them as vector embeddings locally using FAISS, and chat with them using OpenAI's GPT models.**
 
 ---
 
-## 🚀 Features
+## Features
 
 - Upload and parse **PDF** and **CSV** files.
 - Embeds documents using **local SentenceTransformer (MiniLM-L6-v2)** or **OpenAI Embeddings**.
@@ -51,7 +51,7 @@ uvicorn app.main:app --reload
 •	Swagger Docs: http://localhost:8000/docs <br>
 •	ReDoc: http://localhost:8000/redoc
 
-### 🐳 Running with Docker <br>
+### Running with Docker <br>
 1.	Build the image:
 ```bash
 docker build -t rag-service .
@@ -62,7 +62,7 @@ docker build -t rag-service .
 docker run --env-file .env -p 8000:8000 ragify
 ```
 
-## 💡 API Usage Example
+## API Usage Example
 
 1. Upload a File <br>
 	•	POST /upload <br>
@@ -92,14 +92,14 @@ Cached sessions are automatically removed after 15 minutes of inactivity.
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute it.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!
 	1.	Fork the repo
