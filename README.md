@@ -24,7 +24,7 @@ It allows you to **upload PDF or CSV documents, store them as vector embeddings 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/HagaiHen/rag-service.git
+git clone https://github.com/yairyaakov/rag-service.git
 cd rag-service
 ```
 
